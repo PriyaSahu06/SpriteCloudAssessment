@@ -18,7 +18,7 @@ pipeline {
            stage("Checkout Code") {
                steps {
                    git branch: 'main',
-                       url: "https://github.com/PriyaSahu06/validateUIAPI.git"
+                       url: "https://github.com/PriyaSahu06/SpriteCloudAssessment.git"
                }
            }
            stage("Cleaning workspace") {
